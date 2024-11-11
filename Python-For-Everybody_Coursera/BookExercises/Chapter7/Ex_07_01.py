@@ -1,0 +1,6 @@
+fname=input('Enter a file name: ')
+hnd=open(fname)
+doc=hnd.read()
+docU=doc.upper()
+docf=docU.rstrip()
+print(docf)
